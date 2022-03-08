@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 100vw;
+    height: fit-content;
+    background-color: #2a2138;
+}
+nav li {
+    padding: 15px 20px;
+    color: rgba(255, 255, 255, 0.582);
+}
+nav i {
+    margin-right: 10px;
+    /* width: 24px; */
+}
+nav li:hover {
+    background-color: #221a2e;
+}
+@media screen and (min-width: 750px) 
+{
+    nav {
+        width: 25vw;
+        height: 100vh;
+    }
+    nav li {
+        font-size: larger;
+    }
+}
+
+
